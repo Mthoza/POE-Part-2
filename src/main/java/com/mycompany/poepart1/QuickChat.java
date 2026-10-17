@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class QuickChat {
 
     public static void start(Scanner input) {
-        System.out.println("Welcome to QuickChat.");
+        System.out.println("Welcome to QuickChat.. ayeyeye ping ping.");
 
         // the user decides at the start how many messages they want to enter
         int numMessages = 0;
