@@ -40,7 +40,7 @@ public class Message {
         this.messageHash = createMessageHash();
     }
 
-    // Creates a random ten-digit message ID (built one digit at a time in a loop)
+    // Creates a random 10 digit message ID (built one digit at a time in a loop)
     public static String generateMessageID() {
         Random random = new Random();
         String id = "";
@@ -50,7 +50,7 @@ public class Message {
         return id;
     }
 
-    // Makes sure the message ID is not more than ten characters
+    // Makes sure the message ID is not more than 10 characters
     public boolean checkMessageID() {
         return messageID != null && messageID.length() <= 10;
     }
@@ -61,8 +61,8 @@ public class Message {
     }
 
     /*
-     Checks the recipient cell number. This reuses checkCellPhoneNumber()
-     from the Login class in Part 1 (+27 followed by no more than 10 digits).
+     Checks the recipient's cell number. This reuses checkCellPhoneNumber()
+     from the Login class in my  Part 1.
      */
     public String checkRecipientCell() {
         Login loginHelper = new Login(recipient, "", "");
@@ -201,6 +201,6 @@ https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/FileWriter.
 Ecma International (2017) The JSON Data Interchange Syntax (ECMA-404). Available at:
 https://www.json.org/json-en.html (Accessed: 15 October 2026).
 
-Anthropic (2026) Claude (AI assistant) was used to help write and structure this code. Available at:
+Anthropic (2026) Claude (AI assistant) was used to help structure and explain the steps in creating this code. Available at:
 https://claude.ai (Accessed: 15 October 2026).
 */
