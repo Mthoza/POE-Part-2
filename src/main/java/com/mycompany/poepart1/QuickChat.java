@@ -132,5 +132,5 @@ public class QuickChat {
 /* References
 freeCodeCamp.org (2022) Java Programming for Beginners – Full Course. Available at: https://www.youtube.com/watch?v=A74TOX803D0 (Accessed: 9 September 2026).
 
-Anthropic (2026) Claude (AI assistant) was used to help write and structure this code. Available at: https://claude.ai (Accessed: 15 October 2026).
+Anthropic (2026) Claude (AI assistant) was used to help plan and structure this code. Available at: https://claude.ai (Accessed: 15 October 2026).
 */
