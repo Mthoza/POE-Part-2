@@ -5,12 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit tests for the Message class using the test data from the Part 2 brief.
- *
- * Test Data 1: +27718693002, "Hi Mike, can you join us for dinner tonight?", Send
- * Test Data 2: 08575975889, "Hi Keegan, did you receive the payment?", Discard
- *
+/*
  * @author Student
  */
 public class MessageTest {
