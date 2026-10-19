@@ -36,4 +36,5 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>com.mycompany.poepart1.PoePart1</exec.mainClass>
     </properties>
+    <name>PoePart2</name>
 </project>
